@@ -297,50 +297,50 @@
       <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M3 8l3.5 3.5L13 4" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
     </div>
     <div style="flex:1">
-      <div style="font-size:12px;font-weight:700;color:#2e844a;margin-bottom:2px">Data Validated Against Live orgcs + Reconciled with Tableau Cloud Dashboard</div>
+      <div style="font-size:12px;font-weight:700;color:#2e844a;margin-bottom:2px">Data Validated Against Live orgcs · Owner-Timezone Methodology (Asia/Kolkata + Asia/Colombo = IST)</div>
       <div style="font-size:11px;color:#1a5c2a;line-height:1.6">
-        IST (Support_Region): 33 total (32 closed, 1 open) · EMEA: 13 total (12 closed, 1 open) · Avg FRT 4.82–7.26 hrs &nbsp;|&nbsp;
-        <strong style="color:#ba0517">Correction Oct 6:</strong> 2 new cases + 2 closures recovered via owner-timezone filter (cases routed to non-IST queues by IST engineers) to match Tableau Engineer Geo = 2 inflow · 5 closures · 3 backlog
+        IST (owner tz): 56 total QTD (52 closed, 4 open) · EMEA: 0 cases this quarter — all engineers verified IST by timezone &nbsp;|&nbsp;
+        <strong>Week Oct 12–18:</strong> 4 inflow · 5 closures · 4 backlog · 100% SLA · 1 CSAT received
       </div>
     </div>
-    <div style="font-size:10px;color:#2e844a;text-align:right;flex-shrink:0">Corrected<br/>Oct 6, 2026</div>
+    <div style="font-size:10px;color:#2e844a;text-align:right;flex-shrink:0">Generated<br/>Oct 19, 2026</div>
   </div>
 
   <!-- ══════════ WEEKLY KPIs ══════════ -->
   <div class="section">
-    <div class="section-title">Week in Review · Sep 27 – Oct 2, 2026 (IST + EMEA)</div>
+    <div class="section-title">Week in Review · Oct 12 – 18, 2026 (IST + EMEA)</div>
 
     <!-- Weekly KPI tiles -->
     <div class="kpi-grid" style="margin-bottom:16px">
       <div class="kpi-tile">
         <div class="kpi-label">New Cases (Inflow)</div>
-        <div class="kpi-value" style="color:var(--blue)">2</div>
-        <div class="kpi-delta">→ same as prev week · incl. 1 P1</div>
+        <div class="kpi-value" style="color:var(--blue)">4</div>
+        <div class="kpi-delta warn">↓ 2 vs prev week (6) · all P3–P4</div>
       </div>
       <div class="kpi-tile green">
         <div class="kpi-label">Cases Closed</div>
         <div class="kpi-value" style="color:var(--green)">5</div>
-        <div class="kpi-delta good">↑ 2 vs prev week (3 closed) ✓</div>
+        <div class="kpi-delta good">↑ 1 vs prev week (4) · incl. P1 ✓</div>
       </div>
       <div class="kpi-tile amber">
         <div class="kpi-label">Backlog (End)</div>
-        <div class="kpi-value" style="color:var(--amber)">3</div>
-        <div class="kpi-delta warn">↓ 2 from 5 · 1 new case open</div>
+        <div class="kpi-value" style="color:var(--amber)">4</div>
+        <div class="kpi-delta warn">↓ 1 from 5 · P1 Motorola aging 33d</div>
       </div>
       <div class="kpi-tile green">
         <div class="kpi-label">SLA Compliance</div>
         <div class="kpi-value" style="color:var(--green)">100%</div>
         <div class="kpi-delta good">= same as prev week</div>
       </div>
-      <div class="kpi-tile green">
-        <div class="kpi-label">Escalations</div>
-        <div class="kpi-value" style="color:var(--green)">0</div>
-        <div class="kpi-delta good">= same as prev week</div>
+      <div class="kpi-tile red">
+        <div class="kpi-label">Avg FRT (new cases)</div>
+        <div class="kpi-value" style="color:var(--red)">14.37h</div>
+        <div class="kpi-delta bad">↑ outlier: 475309251 (46.79h)</div>
       </div>
       <div class="kpi-tile">
         <div class="kpi-label">CSAT Received</div>
-        <div class="kpi-value">0</div>
-        <div class="kpi-delta">Survey pipeline pending</div>
+        <div class="kpi-value">1</div>
+        <div class="kpi-delta">Saint Gobain P1 closure</div>
       </div>
     </div>
 
@@ -352,8 +352,8 @@
           <thead>
             <tr>
               <th>KPI</th>
-              <th><span class="week-badge week-curr">This Week · Sep 27–Oct 2</span></th>
-              <th><span class="week-badge week-prev">Prev Week · Sep 20–26</span></th>
+              <th><span class="week-badge week-curr">This Week · Oct 12–18</span></th>
+              <th><span class="week-badge week-prev">Prev Week · Oct 5–11</span></th>
               <th>Δ Change</th>
               <th>Signal</th>
             </tr>
@@ -361,36 +361,36 @@
           <tbody>
             <tr>
               <td style="font-weight:700">New Cases Created</td>
-              <td style="font-weight:700">2 (IST: 2 · EMEA: 0) <span style="color:var(--red);font-size:10px">incl. 1 P1</span></td>
-              <td>2 (IST: 2 · EMEA: 0)</td>
-              <td><span class="delta same">→ 0</span></td>
-              <td style="color:var(--teal);font-weight:700;font-size:11px">= Same intake · P1 resolved same week</td>
+              <td style="font-weight:700">4 (IST: 4 · EMEA: 0)</td>
+              <td>6 (IST: 6 · EMEA: 0)</td>
+              <td><span class="delta good-down">↓ 2</span></td>
+              <td style="color:var(--green);font-weight:700;font-size:11px">↓ 33% inflow · lower intake week</td>
             </tr>
             <tr>
               <td style="font-weight:700">Cases Closed</td>
               <td style="font-weight:700;color:var(--green)">5 (IST: 5 · EMEA: 0)</td>
-              <td>3 (IST: 2 · EMEA: 1)</td>
-              <td><span class="delta good-down">↑ 2</span></td>
-              <td style="color:var(--green);font-weight:700;font-size:11px">✓ Closed more than opened</td>
+              <td>4 (IST: 4 · EMEA: 0)</td>
+              <td><span class="delta good-down">↑ 1</span></td>
+              <td style="color:var(--green);font-weight:700;font-size:11px">✓ Closures &gt; inflow · backlog shrinking</td>
             </tr>
             <tr>
               <td style="font-weight:700">Open Backlog (end of week)</td>
-              <td style="font-weight:700;color:var(--amber)">3</td>
+              <td style="font-weight:700;color:var(--amber)">4</td>
               <td>5</td>
-              <td><span class="delta good-down">↓ 2</span></td>
-              <td style="color:var(--teal);font-weight:700;font-size:11px">↓ 40% · 1 new case added to backlog</td>
+              <td><span class="delta good-down">↓ 1</span></td>
+              <td style="color:var(--amber);font-weight:700;font-size:11px">⚠ P1 Motorola 33 days old — see watchlist</td>
             </tr>
             <tr>
               <td style="font-weight:700">Avg FRT (new cases)</td>
-              <td style="font-weight:700;color:var(--amber)">7.87 hrs <span style="font-size:10px;font-weight:400">(0.52h P1 · 15.21h P4)</span></td>
-              <td>8.94 hrs</td>
-              <td><span class="delta good-down">↓ 1.07h</span></td>
-              <td style="color:var(--green);font-size:11px;font-weight:700">✓ P1 responded in 31 min</td>
+              <td style="font-weight:700;color:var(--red)">14.37 hrs <span style="font-size:10px;font-weight:400">(outlier: 46.79h)</span></td>
+              <td>1.42 hrs</td>
+              <td><span class="delta bad">↑ 12.95h</span></td>
+              <td style="color:var(--amber);font-size:11px;font-weight:700">⚠ Single outlier 475309251 — remove: 3.56h</td>
             </tr>
             <tr>
               <td style="font-weight:700">Initial Response SLA</td>
-              <td style="color:var(--green);font-weight:700">100% (2/2)</td>
-              <td style="color:var(--green);font-weight:700">100% (2/2)</td>
+              <td style="color:var(--green);font-weight:700">100% (4/4)</td>
+              <td style="color:var(--green);font-weight:700">100% (6/6)</td>
               <td><span class="delta same">→ 0</span></td>
               <td style="color:var(--green);font-size:11px;font-weight:700">✓ All SLAs met</td>
             </tr>
@@ -403,24 +403,19 @@
             </tr>
             <tr>
               <td style="font-weight:700">CSAT Surveys Received</td>
+              <td style="font-weight:700;color:var(--green)">1</td>
               <td>0</td>
-              <td>0</td>
-              <td><span class="delta same">→ 0</span></td>
-              <td style="color:var(--amber);font-size:11px;font-weight:700">⚠ Review survey triggers</td>
+              <td><span class="delta good-down">↑ 1</span></td>
+              <td style="color:var(--green);font-size:11px;font-weight:700">✓ Saint Gobain P1 closure triggered survey</td>
             </tr>
           </tbody>
         </table>
       </div>
     </div>
 
-    <!-- Data filter notice -->
-    <div style="background:#fff8e6;border:1px solid #f9d67a;border-radius:6px;padding:10px 16px;margin-bottom:12px;font-size:11px;color:#7a4800">
-      <strong>⚠ Data Correction Applied:</strong> Original report filtered by <code>Support_Region__c IN ('IST','EMEA')</code>, which missed IST engineers whose cases were routed to APAC / AMER-EST / LATAM queues. Figures above are corrected using <strong>owner timezone (Asia/Kolkata)</strong> to match the Tableau Cloud Dashboard "Engineer Geo" filter. 2 new cases and 2 additional closures were recovered.
-    </div>
-
     <!-- New cases opened this week -->
     <div class="card" style="margin-bottom:16px">
-      <div class="card-title" style="background:#e8f4ff;color:#032d60">New Cases Opened This Week (Sep 27–Oct 2) · 2 cases</div>
+      <div class="card-title" style="background:#e8f4ff;color:#032d60">New Cases Opened This Week (Oct 12–18) · 4 cases</div>
       <div class="card-body">
         <table>
           <thead>
@@ -437,39 +432,61 @@
             </tr>
           </thead>
           <tbody>
-            <tr style="background:#fff0f0">
-              <td style="font-weight:700;color:var(--blue)">474745498</td>
-              <td><span class="badge badge-ist">IST</span> <span style="font-size:9px;color:var(--gray-50)">(AMER-EST routed)</span></td>
-              <td><span class="badge badge-p1">P1 Critical</span></td>
-              <td>The Chamberlain Group LLC</td>
-              <td>Forecast Accuracy Dashboard shows 'No result found' for current date in Production</td>
-              <td>Sai Uma Maheswari Kamatham</td>
-              <td style="color:var(--green);font-weight:700">0.52 <span style="font-size:10px">(31 min)</span></td>
+            <tr>
+              <td style="font-weight:700;color:var(--blue)">475222343</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p4">P4 Low</span></td>
+              <td>TrailHead Common Account18</td>
+              <td>Cannot create a developer account for Manufacturing Cloud</td>
+              <td>Swathi S</td>
+              <td style="color:var(--green);font-weight:700">0.16 <span style="font-size:10px">(9 min)</span></td>
               <td><span class="badge" style="background:#eaf5ea;color:#2e844a">Met ✓</span></td>
-              <td><span class="badge badge-closed">Closed Oct 2</span></td>
+              <td><span class="badge badge-closed">Closed Oct 12</span></td>
             </tr>
             <tr>
-              <td style="font-weight:700;color:var(--blue)">474684155</td>
-              <td><span class="badge badge-ist">IST</span> <span style="font-size:9px;color:var(--gray-50)">(APAC routed)</span></td>
-              <td><span class="badge badge-p4">P4 Low</span></td>
-              <td>KINGSTON TECHNOLOGY FAR EAST Corp.</td>
-              <td>Permission to Edit Completed Sales Agreement Schedule Periods</td>
-              <td>Roshan Vemu</td>
-              <td style="color:var(--amber)">15.21</td>
+              <td style="font-weight:700;color:var(--blue)">475288595</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p3">P3 Medium</span></td>
+              <td>Caterpillar Inc. - CRM Innovation</td>
+              <td>AAF feature: Recalculate and Notes &amp; Attachment</td>
+              <td>Varun Reddy A</td>
+              <td style="color:var(--green);font-weight:700">0.52 <span style="font-size:10px">(31 min)</span></td>
               <td><span class="badge" style="background:#eaf5ea;color:#2e844a">Met ✓</span></td>
-              <td><span class="badge badge-amber" style="background:#fff0d1;color:#7a4800">Solution Provided · Open</span></td>
+              <td><span class="badge badge-closed">Closed Oct 15</span></td>
+            </tr>
+            <tr style="background:#fff8e6">
+              <td style="font-weight:700;color:var(--blue)">475309251</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p4">P4 Low</span></td>
+              <td>Engelhard Arzneimittel GmbH &amp; Co KG</td>
+              <td>Sales Agreement Terms – Seitenwechsel zeigt Bug, alle Produkte nur bei erhöhter Pagesize sichtbar</td>
+              <td>Visweswara Rao Gedala</td>
+              <td style="color:var(--red);font-weight:700">46.79 <span style="font-size:10px">⚠ weekend delay</span></td>
+              <td><span class="badge" style="background:#eaf5ea;color:#2e844a">Met ✓</span></td>
+              <td><span class="badge badge-working">Working · Open</span></td>
+            </tr>
+            <tr>
+              <td style="font-weight:700;color:var(--blue)">475445727</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p4">P4 Low</span></td>
+              <td>W. L. Gore &amp; Associates, Inc.</td>
+              <td>Issue with Custom Actions in Winter '27 Criteria-Based Search and Filter Flow Screen Component</td>
+              <td>Harsh Thakkar</td>
+              <td style="color:var(--amber);font-weight:700">10.0</td>
+              <td><span class="badge" style="background:#eaf5ea;color:#2e844a">Met ✓</span></td>
+              <td><span class="badge badge-working">Working · Open</span></td>
             </tr>
           </tbody>
         </table>
         <div style="padding:10px 14px;font-size:11px;color:var(--gray-80);background:var(--gray-10);border-top:1px solid var(--gray-20)">
-          <strong>Key highlight:</strong> The Chamberlain Group P1 (474745498) was created, responded to in <strong>31 minutes</strong>, and fully resolved within ~14 hours — excellent P1 handling. Case was routed to AMER-EST queue but owned by an IST engineer, which is why it was missing from the original report.
+          <strong>Avg FRT note:</strong> Case 475309251 (Visweswara/Engelhard) had FRT of 46.79 hrs — created Mon Oct 13 afternoon, first response Wed Oct 15 morning. Likely a weekend/Monday overlap delay. Excluding this outlier, avg FRT = <strong>3.56 hrs</strong>. SLA was met on all 4 cases.
         </div>
       </div>
     </div>
 
     <!-- This week's closed cases -->
     <div class="card" style="margin-bottom:16px">
-      <div class="card-title" style="background:#eaf5ea;color:#2e844a">Cases Closed This Week (Sep 27–Oct 2) · 5 cases</div>
+      <div class="card-title" style="background:#eaf5ea;color:#2e844a">Cases Closed This Week (Oct 12–18) · 5 cases</div>
       <div class="card-body">
         <table>
           <thead>
@@ -487,71 +504,71 @@
           </thead>
           <tbody>
             <tr>
-              <td style="font-weight:700;color:var(--blue)">474568223</td>
+              <td style="font-weight:700;color:var(--blue)">475222343</td>
               <td><span class="badge badge-ist">IST</span></td>
-              <td><span class="badge badge-p1">P1 Critical</span></td>
-              <td>Metso Finland Oy</td>
-              <td>'Submit for Approval' button missing on Business Plan</td>
-              <td>Sai Uma Maheswari Kamatham</td>
-              <td style="color:var(--green);font-weight:700">1.83</td>
-              <td>20.1 days</td>
-              <td>Sep 30</td>
-            </tr>
-            <tr>
-              <td style="font-weight:700;color:var(--blue)">474666084</td>
-              <td><span class="badge badge-ist">IST</span></td>
-              <td><span class="badge badge-p2">P2 High</span></td>
-              <td>Accenture LLP</td>
-              <td>Reports Issue for 'Group By' feature</td>
-              <td>Akshay Chorey</td>
-              <td>15.31</td>
-              <td>5.1 days</td>
-              <td>Sep 29</td>
-            </tr>
-            <tr>
-              <td style="font-weight:700;color:var(--blue)">474600109</td>
-              <td><span class="badge badge-ist">IST</span></td>
-              <td><span class="badge badge-p2">P2 High</span></td>
-              <td>Accenture LLP</td>
-              <td>Best Practice for Cleaning Fact data</td>
-              <td>Neeti Shyam</td>
-              <td>16.25</td>
-              <td>15.6 days</td>
-              <td>Oct 1</td>
-            </tr>
-            <tr style="background:#f0fafa">
-              <td style="font-weight:700;color:var(--blue)">474745498</td>
-              <td><span class="badge badge-ist">IST</span> <span style="font-size:9px;color:var(--gray-50)">(AMER-EST routed)</span></td>
-              <td><span class="badge badge-p1">P1 Critical</span></td>
-              <td>The Chamberlain Group LLC</td>
-              <td>Forecast Accuracy Dashboard shows 'No result found' for current date in Production</td>
-              <td>Sai Uma Maheswari Kamatham</td>
-              <td style="color:var(--green);font-weight:700">0.52</td>
-              <td>1.0 days</td>
-              <td>Oct 2</td>
-            </tr>
-            <tr style="background:#f0fafa">
-              <td style="font-weight:700;color:var(--blue)">474662172</td>
-              <td><span class="badge badge-ist">IST</span> <span style="font-size:9px;color:var(--gray-50)">(AMER-PST routed)</span></td>
               <td><span class="badge badge-p4">P4 Low</span></td>
-              <td>Hilton Worldwide – HCW Org</td>
-              <td>Discrepancies in forecast data between custom report and Forecasting module</td>
-              <td>Harish J</td>
-              <td style="color:var(--green);font-weight:700">1.25</td>
-              <td>7.0 days</td>
-              <td>Oct 1</td>
+              <td>TrailHead Common Account18</td>
+              <td>Cannot create a developer account for Manufacturing Cloud</td>
+              <td>Swathi S</td>
+              <td style="color:var(--green);font-weight:700">0.16</td>
+              <td>0.01 days</td>
+              <td>Oct 12</td>
+            </tr>
+            <tr>
+              <td style="font-weight:700;color:var(--blue)">474979325</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p2">P2 High</span></td>
+              <td>Altus Digital</td>
+              <td>How to create a Person Account + Campaign Member in single DPE transaction</td>
+              <td>Syeda Sabiha Nasreen</td>
+              <td style="color:var(--green);font-weight:700">2.55</td>
+              <td>5.19 days</td>
+              <td>Oct 13</td>
+            </tr>
+            <tr>
+              <td style="font-weight:700;color:var(--blue)">475288595</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p3">P3 Medium</span></td>
+              <td>Caterpillar Inc. - CRM Innovation</td>
+              <td>AAF feature: Recalculate and Notes &amp; Attachment</td>
+              <td>Varun Reddy A</td>
+              <td style="color:var(--green);font-weight:700">0.52</td>
+              <td>2.17 days</td>
+              <td>Oct 15</td>
+            </tr>
+            <tr style="background:#fff8f8">
+              <td style="font-weight:700;color:var(--blue)">474751855</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p1">P1 Critical</span></td>
+              <td>Saint Gobain Corporation</td>
+              <td>Warranty coverage update error: Service</td>
+              <td>Vipin Sharma</td>
+              <td style="color:var(--green);font-weight:700">0.66 <span style="font-size:10px">(39 min)</span></td>
+              <td style="color:var(--amber);font-weight:700">13.79 days</td>
+              <td>Oct 15</td>
+            </tr>
+            <tr>
+              <td style="font-weight:700;color:var(--blue)">474878115</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p3">P3 Medium</span></td>
+              <td>Tecan Trading AG</td>
+              <td>Unhandled fault error when converting quote to sales agreement</td>
+              <td>Visweswara Rao Gedala</td>
+              <td style="color:var(--green);font-weight:700">0.48 <span style="font-size:10px">(29 min)</span></td>
+              <td>10.85 days</td>
+              <td>Oct 16</td>
             </tr>
           </tbody>
         </table>
         <div style="padding:10px 14px;font-size:11px;color:var(--gray-80);background:var(--gray-10);border-top:1px solid var(--gray-20)">
-          <strong>Note:</strong> All 5 closures were IST-owned (Asia/Kolkata + Asia/Colombo). EMEA closed 0 cases this week (EMEA's open P1 case 474611443 is pending TMP response). Rows highlighted in teal were previously unreported — cases routed to non-IST queues but owned by IST engineers. The P1 Metso case (474568223) took 20 days to resolve — complex Sales Agreement approval flow issue.
+          <strong>Key highlight:</strong> All 5 closures IST-owned. P1 Saint Gobain (474751855, Vipin Sharma) closed after 13.79 days with excellent FRT of 39 min. This P1 closure triggered the 1 CSAT received this week. P3 Tecan Trading (474878115, Visweswara) took 10.85 days — complex quote-to-sales-agreement fault.
         </div>
       </div>
     </div>
 
     <!-- Prev week closed cases for reference -->
     <div class="card">
-      <div class="card-title" style="background:var(--gray-10);color:var(--gray-80)">Cases Closed Previous Week (Sep 20–26) · 3 cases · For Reference</div>
+      <div class="card-title" style="background:var(--gray-10);color:var(--gray-80)">Cases Closed Previous Week (Oct 5–11) · 4 cases · For Reference</div>
       <div class="card-body">
         <table>
           <thead>
@@ -569,37 +586,48 @@
           </thead>
           <tbody>
             <tr>
-              <td style="font-weight:700;color:var(--blue)">474636376</td>
-              <td><span class="badge badge-ist">IST</span></td>
-              <td><span class="badge badge-p1">P1 Critical</span></td>
-              <td>The Goodyear Tire &amp; Rubber</td>
-              <td>Urgent backend deactivation of DPEs in Preprod</td>
-              <td>Harsh Thakkar</td>
-              <td style="color:var(--green);font-weight:700">2.56</td>
-              <td>4.1 days</td>
-              <td>Sep 25</td>
-            </tr>
-            <tr>
-              <td style="font-weight:700;color:var(--blue)">474600284</td>
+              <td style="font-weight:700;color:var(--blue)">474571886</td>
               <td><span class="badge badge-ist">IST</span></td>
               <td><span class="badge badge-p2">P2 High</span></td>
               <td>Accenture LLP</td>
-              <td>Sharing Requirement for Forecast</td>
-              <td>Abhishek Dixit</td>
-              <td>15.55</td>
-              <td>8.7 days</td>
-              <td>Sep 24</td>
+              <td>Shipment Tab not accessible</td>
+              <td>Sreeja Chinnavaddi</td>
+              <td>15.20</td>
+              <td>~31 days</td>
+              <td>Oct 5–11</td>
             </tr>
             <tr>
-              <td style="font-weight:700;color:var(--blue)">474590095</td>
-              <td><span class="badge badge-emea">EMEA</span></td>
-              <td><span class="badge badge-p3">P3 Medium</span></td>
-              <td>FANUC Europe</td>
-              <td>Account Forecast recalculation &amp; LastCalculatedDate missing</td>
+              <td style="font-weight:700;color:var(--blue)">474684155</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p4">P4 Low</span></td>
+              <td>KINGSTON TECHNOLOGY FAR EAST Corp.</td>
+              <td>Permission to Edit Completed Sales Agreement Schedule Periods</td>
+              <td>Roshan Vemu</td>
+              <td>15.21</td>
+              <td>~12 days</td>
+              <td>Oct 5–11</td>
+            </tr>
+            <tr>
+              <td style="font-weight:700;color:var(--blue)">474972339</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p1">P1 Critical</span></td>
+              <td>AllCloud</td>
+              <td>Manufacturing Cloud object SalesAgreementProdSchdAdj not accessible via REST API</td>
               <td>Visweswara Rao Gedala</td>
-              <td style="color:var(--green);font-weight:700">0.72</td>
-              <td>8.8 days</td>
-              <td>Sep 23</td>
+              <td style="color:var(--green);font-weight:700">1.67</td>
+              <td>1.6 days</td>
+              <td>Oct 9</td>
+            </tr>
+            <tr>
+              <td style="font-weight:700;color:var(--blue)">474983153</td>
+              <td><span class="badge badge-ist">IST</span></td>
+              <td><span class="badge badge-p4">P4 Low</span></td>
+              <td>Cochlear Limited</td>
+              <td>Account Manager Target and Distribution Object not accessible via REST API</td>
+              <td>Harish J</td>
+              <td style="color:var(--green);font-weight:700">0.65</td>
+              <td>0.03 days</td>
+              <td>Oct 8</td>
             </tr>
           </tbody>
         </table>
@@ -609,10 +637,10 @@
 
   <!-- ══════════ SIGNALS & ACTIONS ══════════ -->
   <div class="section">
-    <div class="section-title">Signals &amp; Actions · Week of Sep 27 – Oct 2, 2026</div>
+    <div class="section-title">Signals &amp; Actions · Week of Oct 12 – 18, 2026</div>
     <div style="display:flex;flex-direction:column;gap:12px">
 
-      <!-- S1: HIGH — EMEA P1 Aging -->
+      <!-- S1: HIGH — Motorola P1 33 days -->
       <div style="background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;border-left:4px solid var(--red)">
         <div style="padding:14px 18px;display:grid;grid-template-columns:90px 1fr 240px;gap:16px;align-items:start">
           <div style="text-align:center;padding-top:2px">
@@ -620,33 +648,69 @@
             <div style="font-size:10px;color:var(--gray-50);margin-top:6px;line-height:1.4">Needs mgr<br/>action now</div>
           </div>
           <div>
-            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">EMEA P1 Production Case Aging — Motorola Solutions (19+ days)</div>
+            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">P1 Motorola Solutions — 33 Days Open · DPE Failure in Production (474611443)</div>
             <div style="font-size:11px;color:var(--gray-80);line-height:1.7;margin-bottom:8px">
-              Case <strong>474611443</strong> (DPE Failure in Production) has been open <strong>19.6 days</strong> and is blocked at <em>Waiting for TMP</em> with no closure in sight.
-              EMEA had <strong>zero closures</strong> this week. Motorola Solutions is a repeat EMEA account (3 cases QTD).
+              Case <strong>474611443</strong> (DPE Failure in Production) created Sep 16 is now <strong>33 days old</strong> and still in <em>Need More Information</em> status.
+              This was flagged HIGH in the Sep 27–Oct 2 report (then 19 days) — 2 weeks have passed with no closure.
+              Motorola Solutions (3 cases QTD) is a strategic manufacturing account and this aging case requires direct management intervention.
             </div>
             <div style="display:flex;gap:6px;flex-wrap:wrap">
               <span class="theme-tag">P1 Critical</span>
+              <span class="theme-tag">33 days open</span>
               <span class="theme-tag">DPE Failure</span>
               <span class="theme-tag">Motorola Solutions</span>
-              <span class="theme-tag">Waiting for TMP</span>
-              <span class="theme-tag">EMEA: 0 closures this week</span>
+              <span class="theme-tag">Need More Info</span>
             </div>
           </div>
           <div style="background:#fdf3f3;border-radius:6px;padding:12px;font-size:11px;line-height:1.8">
             <div style="font-weight:700;color:var(--red);margin-bottom:6px;font-size:10px;text-transform:uppercase;letter-spacing:.5px">Recommended Actions</div>
             <ol style="padding-left:14px;color:var(--gray-80)">
-              <li>Confirm TMP engagement date — get a commit from TMP lead</li>
-              <li>Set bi-daily customer update (Tahoor Khan → Motorola contact)</li>
-              <li>If TMP fix &gt; 5 days out, file a Known Issue or workaround</li>
-              <li>Mgr to join next customer call for visibility</li>
+              <li>Manager direct call with Motorola Solutions — today</li>
+              <li>If blocked on customer info: document, send formal closure warning</li>
+              <li>If engineering fix pending: confirm TMP release date and communicate to customer</li>
+              <li>Consider escalation to GSM if customer unresponsive beyond 5 days</li>
             </ol>
-            <div style="margin-top:8px;font-size:10px;color:var(--red)"><strong>Owner:</strong> Manager + Tahoor Khan &nbsp;·&nbsp; <strong>By:</strong> Oct 7</div>
+            <div style="margin-top:8px;font-size:10px;color:var(--red)"><strong>Owner:</strong> Manager + Tahoor Khan &nbsp;·&nbsp; <strong>By:</strong> Oct 21 (URGENT)</div>
           </div>
         </div>
       </div>
 
-      <!-- S2: MEDIUM — IST Open Case 2 Reopens -->
+      <!-- S2: HIGH — Accenture P2 11 days -->
+      <div style="background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;border-left:4px solid var(--red)">
+        <div style="padding:14px 18px;display:grid;grid-template-columns:90px 1fr 240px;gap:16px;align-items:start">
+          <div style="text-align:center;padding-top:2px">
+            <div style="display:inline-block;background:#fde8e8;color:var(--red);font-size:10px;font-weight:800;letter-spacing:.8px;padding:4px 10px;border-radius:4px;text-transform:uppercase">HIGH</div>
+            <div style="font-size:10px;color:var(--gray-50);margin-top:6px;line-height:1.4">Needs mgr<br/>action now</div>
+          </div>
+          <div>
+            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">Accenture P2 "Mass Update Functionality" — 11 Days · Solution Provided · Not Closed (474987596)</div>
+            <div style="font-size:11px;color:var(--gray-80);line-height:1.7;margin-bottom:8px">
+              Case <strong>474987596</strong> (Sai Uma Maheswari Kamatham, Accenture LLP) is in <em>Solution Provided</em> status for <strong>11 days</strong> without customer confirmation.
+              Accenture accounts for 12 of 56 QTD cases (21%) — a persistent SI partner with repetitive themes.
+              This case on Mass Update continues the Accenture pattern (4 mass update cases QTD).
+            </div>
+            <div style="display:flex;gap:6px;flex-wrap:wrap">
+              <span class="theme-tag">P2 High</span>
+              <span class="theme-tag">11 days open</span>
+              <span class="theme-tag">Accenture LLP</span>
+              <span class="theme-tag">Mass Update</span>
+              <span class="theme-tag">Solution Provided</span>
+            </div>
+          </div>
+          <div style="background:#fdf3f3;border-radius:6px;padding:12px;font-size:11px;line-height:1.8">
+            <div style="font-weight:700;color:var(--red);margin-bottom:6px;font-size:10px;text-transform:uppercase;letter-spacing:.5px">Recommended Actions</div>
+            <ol style="padding-left:14px;color:var(--gray-80)">
+              <li>Sai Uma to send formal follow-up — confirm resolution or document new concern</li>
+              <li>If no response in 3 days: close with documented resolution note</li>
+              <li>Add to Accenture SI pattern tracker — 5th Mass Update case QTD</li>
+              <li>Flag account team: Accenture needs Manufacturing Cloud Mass Update enablement</li>
+            </ol>
+            <div style="margin-top:8px;font-size:10px;color:var(--red)"><strong>Owner:</strong> Sai Uma + Manager &nbsp;·&nbsp; <strong>By:</strong> Oct 22</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- S3: MEDIUM — FRT outlier 475309251 -->
       <div style="background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;border-left:4px solid var(--amber)">
         <div style="padding:14px 18px;display:grid;grid-template-columns:90px 1fr 240px;gap:16px;align-items:start">
           <div style="text-align:center;padding-top:2px">
@@ -654,172 +718,34 @@
             <div style="font-size:10px;color:var(--gray-50);margin-top:6px;line-height:1.4">Review this<br/>week</div>
           </div>
           <div>
-            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">IST Open Case with 2 Reopens — Accenture · 25 Days Stale</div>
+            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">FRT Outlier — 46.79 hrs on German Customer Case (475309251) · Visweswara Rao Gedala</div>
             <div style="font-size:11px;color:var(--gray-80);line-height:1.7;margin-bottom:8px">
-              Case <strong>474571886</strong> ("Shipment Tab not accessible") is the oldest open IST case at <strong>25.6 days</strong> with <strong>2 reopens</strong> — a pattern indicating the customer is not satisfied with previous responses.
-              It is in <em>Need More Information</em> status, suggesting the engineer is waiting on the customer.
+              Case <strong>475309251</strong> (Engelhard Arzneimittel GmbH, Sales Agreement bug — subject in German) was created Mon Oct 13 afternoon and first-responded Wed Oct 15 morning = <strong>46.79 hrs FRT</strong>.
+              While SLA was technically met (P4), this delay inflated the week's avg FRT from 3.56h to 14.37h.
+              European customer expectations may differ — a Monday creation with mid-week response is a suboptimal experience.
             </div>
             <div style="display:flex;gap:6px;flex-wrap:wrap">
-              <span class="theme-tag">25+ days open</span>
-              <span class="theme-tag">2 Reopens</span>
-              <span class="theme-tag">Accenture LLP</span>
-              <span class="theme-tag">Sreeja Chinnavaddi</span>
-              <span class="theme-tag">Need More Info</span>
+              <span class="theme-tag">46.79 hrs FRT</span>
+              <span class="theme-tag">P4 · SLA Met</span>
+              <span class="theme-tag">Engelhard Arzneimittel</span>
+              <span class="theme-tag">German language case</span>
+              <span class="theme-tag">Visweswara Rao Gedala</span>
             </div>
           </div>
           <div style="background:#fffdf0;border-radius:6px;padding:12px;font-size:11px;line-height:1.8">
             <div style="font-weight:700;color:#7a4800;margin-bottom:6px;font-size:10px;text-transform:uppercase;letter-spacing:.5px">Recommended Actions</div>
             <ol style="padding-left:14px;color:var(--gray-80)">
-              <li>Manager case review — read full case thread today</li>
-              <li>If awaiting customer: set 3-day auto-close warning</li>
-              <li>If truly blocked: bring in a second IST engineer as backup</li>
-              <li>Document reopens root cause — was resolution verified?</li>
+              <li>Review case thread — was there a language barrier or routing delay?</li>
+              <li>If German-language cases lack coverage, flag to EMEA team for co-coverage</li>
+              <li>Coach Visweswara: set a personal 24h response target even on P4</li>
+              <li>Track this case to resolution — Sales Agreement pagination bug in Winter '27</li>
             </ol>
-            <div style="margin-top:8px;font-size:10px;color:#7a4800"><strong>Owner:</strong> Manager + Sreeja Chinnavaddi &nbsp;·&nbsp; <strong>By:</strong> Oct 8</div>
+            <div style="margin-top:8px;font-size:10px;color:#7a4800"><strong>Owner:</strong> Manager + Visweswara &nbsp;·&nbsp; <strong>By:</strong> Oct 22</div>
           </div>
         </div>
       </div>
 
-      <!-- S3: MEDIUM — P2 FRT > 15h Accenture Pattern -->
-      <div style="background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;border-left:4px solid var(--amber)">
-        <div style="padding:14px 18px;display:grid;grid-template-columns:90px 1fr 240px;gap:16px;align-items:start">
-          <div style="text-align:center;padding-top:2px">
-            <div style="display:inline-block;background:#fff0d1;color:#7a4800;font-size:10px;font-weight:800;letter-spacing:.8px;padding:4px 10px;border-radius:4px;text-transform:uppercase">MEDIUM</div>
-            <div style="font-size:10px;color:var(--gray-50);margin-top:6px;line-height:1.4">Coaching<br/>opportunity</div>
-          </div>
-          <div>
-            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">P2 First Response Pattern &gt;15 hrs — 3 of 4 Accenture Cases in Last 2 Weeks</div>
-            <div style="font-size:11px;color:var(--gray-80);line-height:1.7;margin-bottom:8px">
-              Three engineers responded to Accenture P2 cases after <strong>15+ hours</strong>:
-              Akshay Chorey (15.31 hrs), Abhishek Dixit (15.55 hrs), Neeti Shyam (16.25 hrs).
-              While SLA was technically met, the consistent 15–16 hr band suggests a <strong>next-business-day</strong> response habit on P2 cases rather than same-shift urgency.
-            </div>
-            <div style="display:flex;gap:6px;flex-wrap:wrap">
-              <span class="theme-tag">FRT 15–16 hrs</span>
-              <span class="theme-tag">3 Engineers</span>
-              <span class="theme-tag">Accenture LLP</span>
-              <span class="theme-tag">P2/High Priority</span>
-              <span class="theme-tag">Next-day response pattern</span>
-            </div>
-          </div>
-          <div style="background:#fffdf0;border-radius:6px;padding:12px;font-size:11px;line-height:1.8">
-            <div style="font-weight:700;color:#7a4800;margin-bottom:6px;font-size:10px;text-transform:uppercase;letter-spacing:.5px">Recommended Actions</div>
-            <ol style="padding-left:14px;color:var(--gray-80)">
-              <li>Coach: P2 target = first response within 4 hrs during shift</li>
-              <li>Check if IST shift coverage aligns with Accenture case creation times</li>
-              <li>Review queue monitoring — are P2 cases surfacing in real-time?</li>
-              <li>Share as a team observation in next stand-up (no blame, systemic fix)</li>
-            </ol>
-            <div style="margin-top:8px;font-size:10px;color:#7a4800"><strong>Owner:</strong> Manager &nbsp;·&nbsp; <strong>By:</strong> Oct 10 team sync</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- S4: MEDIUM — Accenture High Frequency -->
-      <div style="background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;border-left:4px solid var(--blue)">
-        <div style="padding:14px 18px;display:grid;grid-template-columns:90px 1fr 240px;gap:16px;align-items:start">
-          <div style="text-align:center;padding-top:2px">
-            <div style="display:inline-block;background:#e8f4ff;color:#032d60;font-size:10px;font-weight:800;letter-spacing:.8px;padding:4px 10px;border-radius:4px;text-transform:uppercase">WATCH</div>
-            <div style="font-size:10px;color:var(--gray-50);margin-top:6px;line-height:1.4">Proactive<br/>opportunity</div>
-          </div>
-          <div>
-            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">Accenture LLP — Top-Volume Account · 11 Cases QTD · Likely SI</div>
-            <div style="font-size:11px;color:var(--gray-80);line-height:1.7;margin-bottom:8px">
-              Accenture accounts for <strong>11 of 33 IST cases (33%)</strong> QTD — the highest volume of any single account.
-              Case themes are repetitive: DPE issues, Mass Update, Sales Agreement access, sharing rules.
-              Accenture is likely acting as a <strong>System Integrator (SI)</strong> implementing Manufacturing Cloud for end customers —
-              indicating a knowledge gap that proactive enablement could address upstream.
-            </div>
-            <div style="display:flex;gap:6px;flex-wrap:wrap">
-              <span class="theme-tag">33% of IST volume</span>
-              <span class="theme-tag">SI / Implementation partner</span>
-              <span class="theme-tag">Repetitive themes</span>
-              <span class="theme-tag">DPE · Sales Agreement · Mass Update</span>
-            </div>
-          </div>
-          <div style="background:#f0f6ff;border-radius:6px;padding:12px;font-size:11px;line-height:1.8">
-            <div style="font-weight:700;color:#032d60;margin-bottom:6px;font-size:10px;text-transform:uppercase;letter-spacing:.5px">Recommended Actions</div>
-            <ol style="padding-left:14px;color:var(--gray-80)">
-              <li>Engage Account Team — is Accenture on a named SI program?</li>
-              <li>Offer a Manufacturing Cloud office hours / enablement session for Accenture consultants</li>
-              <li>Create internal KB articles on top 3 Accenture case themes (DPE, Mass Update, Sales Agreement)</li>
-              <li>Flag to Mfg Cloud PM as SI-side adoption friction signal</li>
-            </ol>
-            <div style="margin-top:8px;font-size:10px;color:#032d60"><strong>Owner:</strong> Manager + IST Lead &nbsp;·&nbsp; <strong>By:</strong> Oct 15</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- S5: LOW — P1 Metso took 20 days -->
-      <div style="background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;border-left:4px solid var(--teal)">
-        <div style="padding:14px 18px;display:grid;grid-template-columns:90px 1fr 240px;gap:16px;align-items:start">
-          <div style="text-align:center;padding-top:2px">
-            <div style="display:inline-block;background:#e3f5f5;color:#0b827c;font-size:10px;font-weight:800;letter-spacing:.8px;padding:4px 10px;border-radius:4px;text-transform:uppercase">LEARNING</div>
-            <div style="font-size:10px;color:var(--gray-50);margin-top:6px;line-height:1.4">Knowledge<br/>capture</div>
-          </div>
-          <div>
-            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">P1 Case Took 20 Days to Close — Sales Agreement Approval Flow (Metso)</div>
-            <div style="font-size:11px;color:var(--gray-80);line-height:1.7;margin-bottom:8px">
-              Case <strong>474568223</strong> ("Submit for Approval button missing on Business Plan") was closed this week after <strong>20+ days</strong>.
-              FRT was excellent (1.83 hrs) but resolution was complex, indicating a deep platform behavior investigation.
-              This is a case worth capturing as a Knowledge Article to reduce future TTR for similar issues.
-            </div>
-            <div style="display:flex;gap:6px;flex-wrap:wrap">
-              <span class="theme-tag">P1 Closed</span>
-              <span class="theme-tag">20-day resolution</span>
-              <span class="theme-tag">Sales Agreement Approval</span>
-              <span class="theme-tag">Metso Finland</span>
-              <span class="theme-tag">Sai Uma Kamatham</span>
-            </div>
-          </div>
-          <div style="background:#f0fafa;border-radius:6px;padding:12px;font-size:11px;line-height:1.8">
-            <div style="font-weight:700;color:#0b827c;margin-bottom:6px;font-size:10px;text-transform:uppercase;letter-spacing:.5px">Recommended Actions</div>
-            <ol style="padding-left:14px;color:var(--gray-80)">
-              <li>Ask Sai Uma to draft a resolution summary / KB stub</li>
-              <li>Check if a product bug was filed during investigation</li>
-              <li>Add to team learning digest — good example of complex P1 handling</li>
-              <li>Recognise Sai Uma for strong FRT on a complex case</li>
-            </ol>
-            <div style="margin-top:8px;font-size:10px;color:#0b827c"><strong>Owner:</strong> Sai Uma + Manager &nbsp;·&nbsp; <strong>By:</strong> Oct 10</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- S6: LOW — No CSAT -->
-      <div style="background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;border-left:4px solid var(--gray-50)">
-        <div style="padding:14px 18px;display:grid;grid-template-columns:90px 1fr 240px;gap:16px;align-items:start">
-          <div style="text-align:center;padding-top:2px">
-            <div style="display:inline-block;background:var(--gray-10);color:var(--gray-80);font-size:10px;font-weight:800;letter-spacing:.8px;padding:4px 10px;border-radius:4px;text-transform:uppercase">INFO</div>
-            <div style="font-size:10px;color:var(--gray-50);margin-top:6px;line-height:1.4">Monitor &amp;<br/>investigate</div>
-          </div>
-          <div>
-            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">Zero CSAT Surveys Received — 2 Consecutive Weeks · 6 Closed Cases</div>
-            <div style="font-size:11px;color:var(--gray-80);line-height:1.7;margin-bottom:8px">
-              No CSAT surveys were received across <strong>6 case closures</strong> over the past two weeks (Sep 20 – Oct 2).
-              This is either a survey trigger misconfiguration (surveys not being sent on close) or an extremely low response rate from Manufacturing Cloud customers.
-              Without CSAT data, sentiment scoring and leadership reporting are incomplete.
-            </div>
-            <div style="display:flex;gap:6px;flex-wrap:wrap">
-              <span class="theme-tag">0 CSAT received</span>
-              <span class="theme-tag">6 cases closed</span>
-              <span class="theme-tag">2-week gap</span>
-              <span class="theme-tag">Survey trigger unknown</span>
-            </div>
-          </div>
-          <div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:11px;line-height:1.8">
-            <div style="font-weight:700;color:var(--gray-80);margin-bottom:6px;font-size:10px;text-transform:uppercase;letter-spacing:.5px">Recommended Actions</div>
-            <ol style="padding-left:14px;color:var(--gray-80)">
-              <li>Verify Manufacturing Cloud survey trigger is enabled in Case close workflow</li>
-              <li>Check if Accenture (SI) cases are suppressed from survey sends</li>
-              <li>Consider manual NPS follow-up for Metso and FANUC Europe closures</li>
-              <li>Add CSAT response rate to weekly monitoring dashboard</li>
-            </ol>
-            <div style="margin-top:8px;font-size:10px;color:var(--gray-80)"><strong>Owner:</strong> Manager + Ops &nbsp;·&nbsp; <strong>By:</strong> Oct 10</div>
-          </div>
-        </div>
-      </div>
-
-      <!-- S7: POSITIVE — Strengths to call out -->
+      <!-- S4: POSITIVE — P1 Saint Gobain closed + closures > inflow -->
       <div style="background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;border-left:4px solid var(--green)">
         <div style="padding:14px 18px;display:grid;grid-template-columns:90px 1fr 240px;gap:16px;align-items:start">
           <div style="text-align:center;padding-top:2px">
@@ -827,27 +753,64 @@
             <div style="font-size:10px;color:var(--gray-50);margin-top:6px;line-height:1.4">Recognise &amp;<br/>reinforce</div>
           </div>
           <div>
-            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">Strong Backlog Burn — 60% Reduction · 3 Closures · 0 Escalations · 0 Reopens</div>
+            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">5 Closures &gt; 4 Inflow · P1 Saint Gobain Closed (13.8 days) · 100% SLA · 0 Escalations</div>
             <div style="font-size:11px;color:var(--gray-80);line-height:1.7;margin-bottom:8px">
-              The team reduced the Manufacturing Cloud backlog from <strong>5 to 2 cases</strong> this week despite zero new intake — a strong performance signal.
-              All 3 closures were SLA-compliant. Goodyear's P1 DPE case (Harsh Thakkar) was resolved in under 3 hrs first response.
-              No escalations this week or QTD. This is a clean week operationally.
+              The team closed more cases than opened for the second consecutive week.
+              P1 Saint Gobain (474751855, Vipin Sharma) was resolved after 13.79 days with an FRT of just 39 minutes.
+              Vipin's swift first response on a P1 warranty error case sets the standard for P1 handling.
+              0 escalations maintained QTD.
             </div>
             <div style="display:flex;gap:6px;flex-wrap:wrap">
-              <span class="theme-tag">Backlog ↓ 60%</span>
+              <span class="theme-tag">Closures &gt; Inflow</span>
+              <span class="theme-tag">P1 Closed</span>
               <span class="theme-tag">0 Escalations QTD</span>
-              <span class="theme-tag">100% SLA Met</span>
-              <span class="theme-tag">Harsh Thakkar · Sai Uma · Akshay Chorey · Neeti Shyam</span>
+              <span class="theme-tag">100% SLA</span>
+              <span class="theme-tag">Vipin Sharma · Visweswara · Syeda · Varun · Swathi</span>
             </div>
           </div>
           <div style="background:#eaf5ea;border-radius:6px;padding:12px;font-size:11px;line-height:1.8">
             <div style="font-weight:700;color:#2e844a;margin-bottom:6px;font-size:10px;text-transform:uppercase;letter-spacing:.5px">Recommended Actions</div>
             <ol style="padding-left:14px;color:var(--gray-80)">
-              <li>Call out team performance in this week's leadership update</li>
-              <li>Specifically recognise Sai Uma (P1 Metso closed) and Harsh Thakkar (P1 Goodyear, 2.56 hr FRT)</li>
-              <li>Share 0-escalation QTD stat as a Manufacturing Cloud highlight in monthly ops review</li>
+              <li>Recognise Vipin Sharma — P1 Saint Gobain FRT of 39 min is exceptional</li>
+              <li>Call out team in leadership update: 2nd week of closures &gt; inflow</li>
+              <li>Ask Visweswara to draft KB stub on quote-to-Sales-Agreement fault (Tecan Trading P3)</li>
+              <li>Use 0-escalation QTD stat in monthly ops review</li>
             </ol>
             <div style="margin-top:8px;font-size:10px;color:#2e844a"><strong>Owner:</strong> Manager &nbsp;·&nbsp; <strong>By:</strong> This week's team sync</div>
+          </div>
+        </div>
+      </div>
+
+      <!-- S5: INFO — All engineers IST, no EMEA -->
+      <div style="background:#fff;border-radius:8px;box-shadow:0 1px 3px rgba(0,0,0,.08);overflow:hidden;border-left:4px solid var(--gray-50)">
+        <div style="padding:14px 18px;display:grid;grid-template-columns:90px 1fr 240px;gap:16px;align-items:start">
+          <div style="text-align:center;padding-top:2px">
+            <div style="display:inline-block;background:var(--gray-10);color:var(--gray-80);font-size:10px;font-weight:800;letter-spacing:.8px;padding:4px 10px;border-radius:4px;text-transform:uppercase">INFO</div>
+            <div style="font-size:10px;color:var(--gray-50);margin-top:6px;line-height:1.4">Awareness<br/>item</div>
+          </div>
+          <div>
+            <div style="font-size:13px;font-weight:700;color:var(--ink);margin-bottom:6px">All 56 QTD Cases Are IST-Owned — No True EMEA Timezone Engineers Active</div>
+            <div style="font-size:11px;color:var(--gray-80);line-height:1.7;margin-bottom:8px">
+              After applying owner-timezone methodology, all 56 Manufacturing Cloud cases QTD are owned by engineers in Asia/Kolkata or Asia/Colombo timezone.
+              Engineers handling European accounts (Motorola, Engelhard, Tecan, AllCloud) are India-based IST engineers servicing EMEA queues.
+              This creates a potential coverage risk for European customers during their business hours (afternoon IST = morning Europe).
+            </div>
+            <div style="display:flex;gap:6px;flex-wrap:wrap">
+              <span class="theme-tag">0 EMEA engineers</span>
+              <span class="theme-tag">IST-only coverage</span>
+              <span class="theme-tag">European customers</span>
+              <span class="theme-tag">Coverage risk</span>
+            </div>
+          </div>
+          <div style="background:#f8f8f8;border-radius:6px;padding:12px;font-size:11px;line-height:1.8">
+            <div style="font-weight:700;color:var(--gray-80);margin-bottom:6px;font-size:10px;text-transform:uppercase;letter-spacing:.5px">Recommended Actions</div>
+            <ol style="padding-left:14px;color:var(--gray-80)">
+              <li>Verify whether EMEA-based Manufacturing Cloud engineers exist in org (possibly not onboarded to this cloud)</li>
+              <li>If German-language cases grow, explore co-coverage with EMEA team</li>
+              <li>Flag to resource planning: European Mfg Cloud customers have IST-only support</li>
+              <li>Monitor FRT on European-account cases (Engelhard, Motorola, Tecan)</li>
+            </ol>
+            <div style="margin-top:8px;font-size:10px;color:var(--gray-80)"><strong>Owner:</strong> Manager + Resource Planning &nbsp;·&nbsp; <strong>By:</strong> Next planning cycle</div>
           </div>
         </div>
       </div>
@@ -857,27 +820,27 @@
 
   <!-- ── KPI TILES ── -->
   <div class="section">
-    <div class="section-title">Quarter-to-Date KPIs · IST + EMEA Combined (Jul 1 – Oct 6, 2026)</div>
+    <div class="section-title">Quarter-to-Date KPIs · IST + EMEA Combined (Jul 1 – Oct 18, 2026)</div>
     <div class="kpi-grid">
       <div class="kpi-tile">
         <div class="kpi-label">Total Cases</div>
-        <div class="kpi-value">46</div>
-        <div class="kpi-delta">IST 33 · EMEA 13</div>
+        <div class="kpi-value">56</div>
+        <div class="kpi-delta">IST 56 · EMEA 0 (by owner tz)</div>
       </div>
       <div class="kpi-tile green">
         <div class="kpi-label">SLA Compliance</div>
         <div class="kpi-value" style="color:var(--green)">100%</div>
-        <div class="kpi-delta good">All 46 initial responses met</div>
+        <div class="kpi-delta good">All 56 initial responses met</div>
       </div>
       <div class="kpi-tile teal">
         <div class="kpi-label">Closure Rate</div>
-        <div class="kpi-value" style="color:var(--teal)">96%</div>
-        <div class="kpi-delta">44 closed · 2 open</div>
+        <div class="kpi-value" style="color:var(--teal)">92.9%</div>
+        <div class="kpi-delta">52 closed · 4 open</div>
       </div>
-      <div class="kpi-tile">
+      <div class="kpi-tile amber">
         <div class="kpi-label">Avg FRT (hrs)</div>
-        <div class="kpi-value">4.82</div>
-        <div class="kpi-delta warn">Median: 1.21 hrs — outliers noted</div>
+        <div class="kpi-value" style="color:var(--amber)">10.14</div>
+        <div class="kpi-delta warn">Outliers: 64.76h + 46.79h skew avg</div>
       </div>
       <div class="kpi-tile green">
         <div class="kpi-label">Escalations</div>
@@ -886,8 +849,8 @@
       </div>
       <div class="kpi-tile amber">
         <div class="kpi-label">Open Backlog</div>
-        <div class="kpi-value" style="color:var(--amber)">2</div>
-        <div class="kpi-delta warn">Both aged 19+ days — see watchlist</div>
+        <div class="kpi-value" style="color:var(--amber)">4</div>
+        <div class="kpi-delta warn">P1 Motorola 33 days — see watchlist</div>
       </div>
     </div>
   </div>
@@ -898,7 +861,7 @@
     <div class="watchlist">
       <div class="watchlist-header">
         <span class="alert-dot red"></span>
-        2 cases currently open &amp; aging — require management visibility
+        4 cases currently open — 2 require urgent management action
       </div>
       <table>
         <thead>
@@ -918,61 +881,89 @@
         <tbody>
           <tr style="background:#fff8f8">
             <td style="font-weight:700; color:var(--blue)">474611443</td>
-            <td><span class="badge badge-emea">EMEA</span></td>
+            <td><span class="badge badge-ist">IST</span></td>
             <td><span class="badge badge-p1">P1 Critical</span></td>
             <td>Motorola Solutions, Inc.</td>
             <td>DPE Failure in Production</td>
             <td>Tahoor Khan</td>
-            <td style="font-weight:700; color:var(--red)">19.6</td>
-            <td><span class="badge badge-working">Waiting for TMP</span></td>
+            <td style="font-weight:700; color:var(--red)">33</td>
+            <td><span class="badge badge-info">Need More Info</span></td>
             <td style="text-align:center">0</td>
             <td><div class="risk risk-high"><span class="risk-dot"></span>HIGH</div></td>
           </tr>
           <tr style="background:#fffdf2">
-            <td style="font-weight:700; color:var(--blue)">474571886</td>
+            <td style="font-weight:700; color:var(--blue)">474987596</td>
             <td><span class="badge badge-ist">IST</span></td>
             <td><span class="badge badge-p2">P2 High</span></td>
             <td>Accenture LLP</td>
-            <td>Shipment Tab not accessible</td>
-            <td>Sreeja Chinnavaddi</td>
-            <td style="font-weight:700; color:var(--amber)">25.6</td>
-            <td><span class="badge badge-info">Need More Info</span></td>
-            <td style="text-align:center; color:var(--amber); font-weight:700">2</td>
+            <td>Mass Update Functionality</td>
+            <td>Sai Uma Maheswari Kamatham</td>
+            <td style="font-weight:700; color:var(--amber)">11</td>
+            <td><span class="badge badge-working">Solution Provided</span></td>
+            <td style="text-align:center">0</td>
+            <td><div class="risk risk-high"><span class="risk-dot"></span>HIGH</div></td>
+          </tr>
+          <tr>
+            <td style="font-weight:700; color:var(--blue)">475309251</td>
+            <td><span class="badge badge-ist">IST</span></td>
+            <td><span class="badge badge-p4">P4 Low</span></td>
+            <td>Engelhard Arzneimittel GmbH</td>
+            <td>Sales Agreement Terms – Seitenwechsel Bug</td>
+            <td>Visweswara Rao Gedala</td>
+            <td style="font-weight:700; color:var(--amber)">6</td>
+            <td><span class="badge badge-working">Working</span></td>
+            <td style="text-align:center">0</td>
             <td><div class="risk risk-medium"><span class="risk-dot"></span>MEDIUM</div></td>
+          </tr>
+          <tr>
+            <td style="font-weight:700; color:var(--blue)">475445727</td>
+            <td><span class="badge badge-ist">IST</span></td>
+            <td><span class="badge badge-p4">P4 Low</span></td>
+            <td>W. L. Gore &amp; Associates, Inc.</td>
+            <td>Custom Actions — Winter '27 Criteria-Based Search Issue</td>
+            <td>Harsh Thakkar</td>
+            <td style="font-weight:700">4</td>
+            <td><span class="badge badge-working">Working</span></td>
+            <td style="text-align:center">0</td>
+            <td><div class="risk risk-low"><span class="risk-dot"></span>LOW</div></td>
           </tr>
         </tbody>
       </table>
     </div>
     <div style="background:#fff; border-radius:0 0 8px 8px; padding:10px 18px; border-top:none; box-shadow:0 1px 3px rgba(0,0,0,.08); font-size:11px; color:#7a4800; border-top: 1px solid var(--gray-20)">
       <strong>Manager Actions:</strong>
-      474611443 (EMEA/Motorola) — P1 production issue pending TMP response; confirm TMP engagement timeline and set customer update cadence.
+      474611443 (Motorola P1) — 33 days old; direct mgr engagement needed this week.
       &nbsp;·&nbsp;
-      474571886 (IST/Accenture) — 25+ days old with 2 reopens; evaluate if additional debugging help or escalation path is needed.
+      474987596 (Accenture P2) — 11 days in "Solution Provided"; Sai Uma to send formal follow-up or close.
+      &nbsp;·&nbsp;
+      475309251 (Engelhard P4) — German language case; check for coverage/language barriers.
+      &nbsp;·&nbsp;
+      475445727 (W.L. Gore P4) — new, Harsh Thakkar actively working.
     </div>
   </div>
 
   <!-- ── GEO SNAPSHOT ── -->
   <div class="section">
-    <div class="section-title">Regional Snapshot (Jul 1 – Oct 6, 2026)</div>
+    <div class="section-title">Regional Snapshot (Jul 1 – Oct 18, 2026)</div>
     <div class="geo-grid">
       <!-- IST Card -->
       <div class="geo-card">
         <div class="geo-card-header ist">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="white" stroke-width="1.5"/><path d="M8 4v4l3 2" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
-          IST (India Standard Time) · Asia/Kolkata
+          IST (India Standard Time) · Asia/Kolkata + Asia/Colombo
         </div>
         <div class="geo-card-body">
           <div class="geo-stat-row">
             <span class="label">Total Cases (QTD)</span>
-            <span class="val">33</span>
+            <span class="val">56</span>
           </div>
           <div class="geo-stat-row">
             <span class="label">Closed</span>
-            <span class="val green">32 (97%)</span>
+            <span class="val green">52 (92.9%)</span>
           </div>
           <div class="geo-stat-row">
             <span class="label">Open</span>
-            <span class="val amber">1</span>
+            <span class="val amber">4</span>
           </div>
           <div class="geo-stat-row">
             <span class="label">SLA Compliance</span>
@@ -980,15 +971,11 @@
           </div>
           <div class="geo-stat-row">
             <span class="label">Avg First Response</span>
-            <span class="val amber">7.26 hrs</span>
+            <span class="val amber">10.14 hrs</span>
           </div>
           <div class="geo-stat-row">
             <span class="label">Median First Response</span>
-            <span class="val green">1.56 hrs</span>
-          </div>
-          <div class="geo-stat-row">
-            <span class="label">Avg Resolution Time</span>
-            <span class="val">8.71 days</span>
+            <span class="val green">0.80 hrs</span>
           </div>
           <div class="geo-stat-row">
             <span class="label">Escalations</span>
@@ -1000,73 +987,49 @@
           </div>
           <div class="geo-stat-row">
             <span class="label">CSAT Surveys Received</span>
-            <span class="val">1</span>
+            <span class="val">2</span>
           </div>
           <div class="geo-stat-row">
             <span class="label">Engineers Active</span>
-            <span class="val">17</span>
+            <span class="val">20+</span>
           </div>
           <div class="geo-stat-row">
-            <span class="label">FRT Outlier Note</span>
-            <span class="val red">64.76 hrs (Case 474581157)</span>
+            <span class="label">FRT Outliers</span>
+            <span class="val red">64.76h (474581157) · 46.79h (475309251)</span>
           </div>
         </div>
       </div>
 
-      <!-- EMEA Card -->
+      <!-- EMEA Card — No cases this quarter -->
       <div class="geo-card">
         <div class="geo-card-header emea">
           <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><circle cx="8" cy="8" r="7" stroke="white" stroke-width="1.5"/><path d="M8 4v4l3 2" stroke="white" stroke-width="1.5" stroke-linecap="round"/></svg>
-          EMEA (Europe · Middle East · Africa)
+          EMEA (Europe · Middle East · Africa) — Owner Timezone View
         </div>
         <div class="geo-card-body">
           <div class="geo-stat-row">
             <span class="label">Total Cases (QTD)</span>
-            <span class="val">13</span>
+            <span class="val amber">0</span>
           </div>
           <div class="geo-stat-row">
-            <span class="label">Closed</span>
-            <span class="val green">12 (92%)</span>
+            <span class="label">Note</span>
+            <span class="val" style="font-size:10px;line-height:1.4">All Mfg Cloud engineers have IST timezone (Asia/Kolkata). European-queue cases are handled by IST engineers → counted as IST above.</span>
           </div>
           <div class="geo-stat-row">
-            <span class="label">Open</span>
-            <span class="val amber">1</span>
+            <span class="label">European Accounts Served</span>
+            <span class="val">Motorola · Engelhard · Tecan · AllCloud</span>
           </div>
           <div class="geo-stat-row">
-            <span class="label">SLA Compliance</span>
-            <span class="val green">100%</span>
+            <span class="label">Primary IST engineer for EU</span>
+            <span class="val">Visweswara Rao Gedala · Tahoor Khan</span>
           </div>
           <div class="geo-stat-row">
-            <span class="label">Avg First Response</span>
-            <span class="val green">4.82 hrs</span>
+            <span class="label">Coverage Risk</span>
+            <span class="val red">IST-only · No dedicated EU-tz engineer</span>
           </div>
           <div class="geo-stat-row">
-            <span class="label">Median First Response</span>
-            <span class="val green">0.79 hrs</span>
-          </div>
-          <div class="geo-stat-row">
-            <span class="label">Avg Resolution Time</span>
-            <span class="val">8.57 days</span>
-          </div>
-          <div class="geo-stat-row">
-            <span class="label">Escalations</span>
-            <span class="val green">0</span>
-          </div>
-          <div class="geo-stat-row">
-            <span class="label">Case Reopens</span>
-            <span class="val green">0</span>
-          </div>
-          <div class="geo-stat-row">
-            <span class="label">CSAT Surveys Received</span>
-            <span class="val">1</span>
-          </div>
-          <div class="geo-stat-row">
-            <span class="label">Engineers Active</span>
-            <span class="val">7</span>
-          </div>
-          <div class="geo-stat-row">
-            <span class="label">FRT Outlier Note</span>
-            <span class="val amber">21.88 hrs (Case 474501725)</span>
+            <span class="label">Recommended</span>
+            <span class="val" style="font-size:10px">Flag to resource planning for EMEA coverage</span>
           </div>
         </div>
       </div>
@@ -1132,8 +1095,8 @@
         <div style="display:flex; flex-direction:column; align-items:center; gap:4px; flex:1">
           <div style="display:flex; align-items:flex-end; gap:4px; height:120px">
             <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
-              <span style="font-size:9px;font-weight:700;color:#032d60">0</span>
-              <div style="width:24px;height:2px;background:#032d60;border-radius:3px 3px 0 0"></div>
+              <span style="font-size:9px;font-weight:700;color:#032d60">10</span>
+              <div style="width:24px;height:60px;background:#032d60;border-radius:3px 3px 0 0"></div>
             </div>
             <div style="display:flex;flex-direction:column;align-items:center;gap:2px">
               <span style="font-size:9px;font-weight:700;color:#0b827c">0</span>
@@ -1141,16 +1104,16 @@
             </div>
           </div>
           <div style="font-size:11px;color:var(--gray-50);font-weight:700">Oct*</div>
-          <div style="font-size:10px;color:var(--gray-50)">0 total</div>
+          <div style="font-size:10px;color:var(--gray-50)">10 total</div>
         </div>
 
         <div style="flex:3; padding-left:20px; border-left:1px solid var(--gray-20)">
           <div style="font-size:11px;font-weight:700;color:var(--gray-80);margin-bottom:10px">Observations</div>
           <div style="font-size:11px;color:var(--gray-80);line-height:1.7">
             ▾ <strong>35% volume decline</strong> Jul→Aug, maintained in Sep.<br/>
-            ▴ EMEA share grew from 25% (Jul) to <strong>38% (Sep)</strong>.<br/>
-            ★ IST carries ~71% of all Manufacturing Cloud volume QTD.<br/>
-            ◎ Oct is partial (thru Oct 6) — pipeline building.
+            ★ IST carries <strong>100%</strong> of Manufacturing Cloud volume QTD (by owner timezone).<br/>
+            ▴ Oct (thru Oct 18): 10 cases · <strong>strong Q3 closing pace</strong>.<br/>
+            ◎ No true EMEA-timezone engineers active this quarter.
           </div>
           <div style="margin-top:14px; display:flex; gap:12px">
             <div style="display:flex;align-items:center;gap:5px;font-size:11px"><span style="width:12px;height:12px;background:#032d60;border-radius:2px;display:inline-block"></span> IST</div>
@@ -1167,38 +1130,38 @@
     <div class="two-col">
       <!-- Priority breakdown -->
       <div class="card">
-        <div class="card-title">Priority Distribution (IST + EMEA, QTD)</div>
+        <div class="card-title">Priority Distribution (IST + EMEA, QTD · 56 cases)</div>
         <div class="card-body" style="padding:16px">
           <div style="margin-bottom:12px">
             <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px">
               <span><span class="badge badge-p1">P1 Critical (0)</span></span>
-              <span style="font-weight:700">16 cases — 35%</span>
+              <span style="font-weight:700">18 cases — 32%</span>
             </div>
-            <div class="prog-wrap"><div class="prog-bar"><div class="prog-fill" style="width:35%;background:var(--red)"></div></div></div>
+            <div class="prog-wrap"><div class="prog-bar"><div class="prog-fill" style="width:32%;background:var(--red)"></div></div></div>
           </div>
           <div style="margin-bottom:12px">
             <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px">
               <span><span class="badge badge-p2">P2 High (13–16)</span></span>
-              <span style="font-weight:700">12 cases — 26%</span>
+              <span style="font-weight:700">13 cases — 23%</span>
             </div>
-            <div class="prog-wrap"><div class="prog-bar"><div class="prog-fill" style="width:26%;background:var(--amber)"></div></div></div>
+            <div class="prog-wrap"><div class="prog-bar"><div class="prog-fill" style="width:23%;background:var(--amber)"></div></div></div>
           </div>
           <div style="margin-bottom:12px">
             <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px">
               <span><span class="badge badge-p3">P3 Medium (25–27)</span></span>
-              <span style="font-weight:700">4 cases — 9%</span>
+              <span style="font-weight:700">7 cases — 13%</span>
             </div>
-            <div class="prog-wrap"><div class="prog-bar"><div class="prog-fill" style="width:9%;background:var(--purple)"></div></div></div>
+            <div class="prog-wrap"><div class="prog-bar"><div class="prog-fill" style="width:13%;background:var(--purple)"></div></div></div>
           </div>
           <div>
             <div style="display:flex;justify-content:space-between;font-size:11px;margin-bottom:4px">
               <span><span class="badge badge-p4">P4 Low (45)</span></span>
-              <span style="font-weight:700">14 cases — 30%</span>
+              <span style="font-weight:700">18 cases — 32%</span>
             </div>
-            <div class="prog-wrap"><div class="prog-bar"><div class="prog-fill" style="width:30%;background:var(--gray-50)"></div></div></div>
+            <div class="prog-wrap"><div class="prog-bar"><div class="prog-fill" style="width:32%;background:var(--gray-50)"></div></div></div>
           </div>
           <div style="margin-top:14px;font-size:10px;color:var(--gray-50)">
-            Note: P1 + P2 = 61% of all cases — Manufacturing Cloud customers face complex, production-impacting issues.
+            Note: P1 + P2 = 55% of all cases — Manufacturing Cloud customers continue to face production-impacting issues.
           </div>
         </div>
       </div>
@@ -1329,7 +1292,7 @@
 
   <!-- ── ENGINEER PERFORMANCE ── -->
   <div class="section">
-    <div class="section-title">Engineer Performance — Manufacturing Cloud (Jul 1 – Oct 6, 2026)</div>
+    <div class="section-title">Engineer Performance — Manufacturing Cloud (Jul 1 – Oct 18, 2026)</div>
     <div class="two-col">
       <!-- IST Engineers -->
       <div class="card">
@@ -1397,29 +1360,50 @@
               </tr>
               <tr>
                 <td>Harsh Thakkar</td>
-                <td style="text-align:center;font-weight:700">2</td>
-                <td style="text-align:center;color:var(--green);font-weight:700">2</td>
+                <td style="text-align:center;font-weight:700">3</td>
+                <td style="text-align:center;color:var(--amber);font-weight:700">2 (1 open)</td>
                 <td>8.57 hrs</td>
                 <td style="color:var(--green);font-weight:700">100%</td>
               </tr>
               <tr>
                 <td>Varun Reddy A</td>
+                <td style="text-align:center;font-weight:700">3</td>
+                <td style="text-align:center;color:var(--green);font-weight:700">3</td>
+                <td>11.51 hrs</td>
+                <td style="color:var(--green);font-weight:700">100%</td>
+              </tr>
+              <tr>
+                <td>Vipin Sharma</td>
+                <td style="text-align:center;font-weight:700">1</td>
+                <td style="text-align:center;color:var(--green);font-weight:700">1</td>
+                <td style="color:var(--green);font-weight:700">0.66 hrs</td>
+                <td style="color:var(--green);font-weight:700">100%</td>
+              </tr>
+              <tr>
+                <td>Syeda Sabiha Nasreen</td>
+                <td style="text-align:center;font-weight:700">1</td>
+                <td style="text-align:center;color:var(--green);font-weight:700">1</td>
+                <td>2.55 hrs</td>
+                <td style="color:var(--green);font-weight:700">100%</td>
+              </tr>
+              <tr>
+                <td>Swathi S</td>
                 <td style="text-align:center;font-weight:700">2</td>
                 <td style="text-align:center;color:var(--green);font-weight:700">2</td>
-                <td>33.16 hrs</td>
+                <td style="color:var(--green);font-weight:700">0.46 hrs</td>
                 <td style="color:var(--green);font-weight:700">100%</td>
               </tr>
               <tr>
-                <td>Sreeja Chinnavaddi</td>
-                <td style="text-align:center;font-weight:700">1</td>
-                <td style="text-align:center;color:var(--amber);font-weight:700">0 ⚠</td>
-                <td>15.2 hrs</td>
+                <td>Harish J</td>
+                <td style="text-align:center;font-weight:700">2</td>
+                <td style="text-align:center;color:var(--green);font-weight:700">2</td>
+                <td style="color:var(--green);font-weight:700">0.95 hrs</td>
                 <td style="color:var(--green);font-weight:700">100%</td>
               </tr>
               <tr>
-                <td style="color:var(--gray-50);font-size:11px">+7 others (1 case each)</td>
-                <td style="text-align:center;font-weight:700">7</td>
-                <td style="text-align:center;color:var(--green);font-weight:700">7</td>
+                <td style="color:var(--gray-50);font-size:11px">+8 others (1–2 cases each)</td>
+                <td style="text-align:center;font-weight:700">12</td>
+                <td style="text-align:center;color:var(--green);font-weight:700">12</td>
                 <td>—</td>
                 <td style="color:var(--green);font-weight:700">100%</td>
               </tr>
@@ -1428,9 +1412,9 @@
         </div>
       </div>
 
-      <!-- EMEA Engineers -->
+      <!-- IST Engineers serving EMEA-queue accounts -->
       <div class="card">
-        <div class="card-title" style="background:#e3f5f5;color:#0b827c">EMEA Engineers</div>
+        <div class="card-title" style="background:#e3f5f5;color:#0b827c">IST Engineers Serving EU/EMEA-Queue Accounts (reclassified from EMEA by owner timezone)</div>
         <div class="card-body">
           <table>
             <thead>
@@ -1445,9 +1429,16 @@
             <tbody>
               <tr>
                 <td>Visweswara Rao Gedala</td>
-                <td style="text-align:center;font-weight:700">4</td>
-                <td style="text-align:center;color:var(--green);font-weight:700">4</td>
-                <td>0.67 hrs</td>
+                <td style="text-align:center;font-weight:700">7</td>
+                <td style="text-align:center;color:var(--amber);font-weight:700">6 (1 open)</td>
+                <td style="color:var(--amber)">7.54 hrs</td>
+                <td style="color:var(--green);font-weight:700">100%</td>
+              </tr>
+              <tr>
+                <td>Tahoor Khan</td>
+                <td style="text-align:center;font-weight:700">1</td>
+                <td style="text-align:center;color:var(--red);font-weight:700">0 ⚠</td>
+                <td>0.1 hrs</td>
                 <td style="color:var(--green);font-weight:700">100%</td>
               </tr>
               <tr>
@@ -1465,37 +1456,17 @@
                 <td style="color:var(--green);font-weight:700">100%</td>
               </tr>
               <tr>
-                <td>Tahoor Khan</td>
-                <td style="text-align:center;font-weight:700">1</td>
-                <td style="text-align:center;color:var(--amber);font-weight:700">0 ⚠</td>
-                <td>0.1 hrs</td>
-                <td style="color:var(--green);font-weight:700">100%</td>
-              </tr>
-              <tr>
-                <td>Anusha Rani Aketi</td>
-                <td style="text-align:center;font-weight:700">1</td>
-                <td style="text-align:center;color:var(--green);font-weight:700">1</td>
-                <td>0.02 hrs</td>
-                <td style="color:var(--green);font-weight:700">100%</td>
-              </tr>
-              <tr>
-                <td>Srirama Tejaswi Pandruvada</td>
-                <td style="text-align:center;font-weight:700">1</td>
-                <td style="text-align:center;color:var(--green);font-weight:700">1</td>
-                <td>21.88 hrs</td>
-                <td style="color:var(--green);font-weight:700">100%</td>
-              </tr>
-              <tr>
-                <td>Soumyajyoti Ghosh</td>
-                <td style="text-align:center;font-weight:700">1</td>
-                <td style="text-align:center;color:var(--green);font-weight:700">1</td>
-                <td>11.47 hrs</td>
+                <td>Anusha Rani Aketi · Srirama Tejaswi · Soumyajyoti Ghosh</td>
+                <td style="text-align:center;font-weight:700">3</td>
+                <td style="text-align:center;color:var(--green);font-weight:700">3</td>
+                <td>11.12 hrs</td>
                 <td style="color:var(--green);font-weight:700">100%</td>
               </tr>
             </tbody>
           </table>
           <div style="padding:12px 16px;font-size:11px;color:var(--teal);background:#f0fafa;border-top:1px solid var(--gray-20)">
-            <strong>Visweswara Rao Gedala</strong> is EMEA's primary Manufacturing Cloud SME — handling 31% of EMEA's MFG volume with an exceptional 0.67 hr avg FRT.
+            <strong>Visweswara Rao Gedala</strong> is the primary IST engineer for EU-queue Manufacturing Cloud cases — 7 cases QTD including 2 complex ones this week (Engelhard open, Tecan closed).
+            <strong>Tahoor Khan's P1 Motorola case (474611443) remains open at 33 days</strong> — escalation needed.
           </div>
         </div>
       </div>
@@ -1504,7 +1475,7 @@
 
   <!-- ── FULL CASE LOG ── -->
   <div class="section">
-    <div class="section-title">Full Case Log — IST &amp; EMEA Manufacturing Cloud (Jul 1 – Oct 6, 2026)</div>
+    <div class="section-title">Full Case Log — IST &amp; EMEA Manufacturing Cloud (Jul 1 – Oct 18, 2026)</div>
     <div class="card">
       <div class="card-body">
         <table>
@@ -1523,6 +1494,16 @@
             </tr>
           </thead>
           <tbody>
+            <tr style="background:#fffdf2"><td style="font-weight:700;color:var(--blue)">475445727</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p4">P4</span></td><td>W. L. Gore &amp; Associates</td><td>Custom Actions — Winter '27 Criteria-Based Search Issue</td><td>Harsh Thakkar</td><td>Oct 15</td><td>10.0</td><td style="color:var(--amber);font-weight:700">4 🔴</td><td><span class="badge badge-working">Working</span></td></tr>
+            <tr style="background:#fffdf2"><td style="font-weight:700;color:var(--blue)">475309251</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p4">P4</span></td><td>Engelhard Arzneimittel GmbH</td><td>Sales Agreement Terms – Seitenwechsel Bug, alle Produkte nur bei erhöhter Pagesize</td><td>Visweswara Rao Gedala</td><td>Oct 13</td><td style="color:var(--red);font-weight:700">46.79 ⚠</td><td style="color:var(--amber);font-weight:700">6 🔴</td><td><span class="badge badge-working">Working</span></td></tr>
+            <tr><td style="font-weight:700;color:var(--blue)">475288595</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p3">P3</span></td><td>Caterpillar Inc. - CRM Innovation</td><td>AAF feature: Recalculate and Notes &amp; Attachment</td><td>Varun Reddy A</td><td>Oct 13</td><td style="color:var(--green);font-weight:700">0.52</td><td>2.2</td><td><span class="badge badge-closed">Closed</span></td></tr>
+            <tr><td style="font-weight:700;color:var(--blue)">475222343</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p4">P4</span></td><td>TrailHead Common Account18</td><td>Cannot create developer account for Manufacturing Cloud</td><td>Swathi S</td><td>Oct 12</td><td style="color:var(--green);font-weight:700">0.16</td><td>0.01</td><td><span class="badge badge-closed">Closed</span></td></tr>
+            <tr style="background:#fffdf2"><td style="font-weight:700;color:var(--blue)">474987596</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p2">P2</span></td><td>Accenture LLP</td><td>Mass Update Functionality</td><td>Sai Uma Maheswari Kamatham</td><td>Oct 8</td><td>2.50</td><td style="color:var(--amber);font-weight:700">11 ⚠</td><td><span class="badge badge-working">Solution Provided</span></td></tr>
+            <tr><td style="font-weight:700;color:var(--blue)">474983153</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p4">P4</span></td><td>Cochlear Limited</td><td>Account Manager Target and Distribution not accessible via REST API</td><td>Harish J</td><td>Oct 8</td><td style="color:var(--green);font-weight:700">0.65</td><td>0.03</td><td><span class="badge badge-closed">Closed</span></td></tr>
+            <tr><td style="font-weight:700;color:var(--blue)">474979325</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p2">P2</span></td><td>Altus Digital</td><td>How to create Person Account + Campaign Member in single DPE transaction</td><td>Syeda Sabiha Nasreen</td><td>Oct 8</td><td style="color:var(--green);font-weight:700">2.55</td><td>5.2</td><td><span class="badge badge-closed">Closed</span></td></tr>
+            <tr><td style="font-weight:700;color:var(--blue)">474972339</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p1">P1</span></td><td>AllCloud</td><td>Manufacturing Cloud object SalesAgreementProdSchdAdj not accessible via REST API</td><td>Visweswara Rao Gedala</td><td>Oct 7</td><td style="color:var(--green);font-weight:700">1.67</td><td>1.6</td><td><span class="badge badge-closed">Closed</span></td></tr>
+            <tr><td style="font-weight:700;color:var(--blue)">474878115</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p3">P3</span></td><td>Tecan Trading AG</td><td>Unhandled fault error when converting quote to sales agreement</td><td>Visweswara Rao Gedala</td><td>Oct 5</td><td style="color:var(--green);font-weight:700">0.48</td><td>10.9</td><td><span class="badge badge-closed">Closed</span></td></tr>
+            <tr style="background:#fff8f8"><td style="font-weight:700;color:var(--blue)">474751855</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p1">P1</span></td><td>Saint Gobain Corporation</td><td>Warranty coverage update error: Service</td><td>Vipin Sharma</td><td>Oct 1</td><td style="color:var(--green);font-weight:700">0.66</td><td>13.8</td><td><span class="badge badge-closed">Closed</span></td></tr>
             <tr><td style="font-weight:700;color:var(--blue)">474666084</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p2">P2</span></td><td>Accenture LLP</td><td>Reports Issue 'Group By' feature</td><td>Akshay Chorey</td><td>Sep 24</td><td>15.31</td><td>5.1</td><td><span class="badge badge-closed">Closed</span></td></tr>
             <tr><td style="font-weight:700;color:var(--blue)">474636376</td><td><span class="badge badge-ist">IST</span></td><td><span class="badge badge-p1">P1</span></td><td>Goodyear</td><td>Urgent backend deactivation of DPEs in Preprod</td><td>Harsh Thakkar</td><td>Sep 21</td><td>2.56</td><td>4.1</td><td><span class="badge badge-closed">Closed</span></td></tr>
             <tr style="background:#fff8f8"><td style="font-weight:700;color:var(--blue)">474611443</td><td><span class="badge badge-emea">EMEA</span></td><td><span class="badge badge-p1">P1</span></td><td>Motorola Solutions</td><td>DPE Failure in Production</td><td>Tahoor Khan</td><td>Sep 16</td><td style="color:var(--green);font-weight:700">0.1</td><td style="color:var(--red);font-weight:700">19.6 🔴</td><td><span class="badge badge-working">Working</span></td></tr>
@@ -1584,30 +1565,30 @@
           <div>
             <div style="font-size:12px;font-weight:700;color:var(--green);margin-bottom:8px">✓ Strengths</div>
             <ul style="font-size:12px;line-height:2;color:var(--gray-80);padding-left:16px">
-              <li><strong>100% SLA compliance</strong> across all 46 cases, both geos</li>
-              <li>Zero escalations and zero management escalations QTD</li>
-              <li>EMEA median FRT of <strong>0.79 hrs</strong> — best-in-class responsiveness</li>
-              <li>Strong SME depth: Visweswara Rao Gedala (EMEA), Sai Uma Kamatham (IST)</li>
-              <li>96% case closure rate over the quarter</li>
+              <li><strong>100% SLA compliance</strong> across all 56 cases QTD</li>
+              <li>Zero escalations QTD — consistent all quarter</li>
+              <li>2 consecutive weeks of closures &gt; inflow — backlog actively shrinking</li>
+              <li>P1 Saint Gobain closed with 39-min FRT (Vipin Sharma)</li>
+              <li>Strong multi-engineer depth: Visweswara, Sai Uma, Harsh Thakkar, Varun Reddy active this week</li>
             </ul>
           </div>
           <div>
             <div style="font-size:12px;font-weight:700;color:var(--amber);margin-bottom:8px">⚠ Watch Areas</div>
             <ul style="font-size:12px;line-height:2;color:var(--gray-80);padding-left:16px">
-              <li><strong>DPE issues = 26%</strong> of all cases — consider proactive KB or internal enablement</li>
-              <li>IST avg FRT (7.26 hrs) skewed by 3 outliers — address next-day P1 responses</li>
-              <li>Accenture LLP accounts for <strong>26% of IST case volume</strong> — white-glove attention warranted</li>
-              <li>Motorola Solutions has 1 open P1 (EMEA, 19 days) — needs TMP commitment tracking</li>
-              <li>Low CSAT survey response rate (2 surveys on 46 cases) — review survey trigger setup</li>
+              <li><strong>Motorola P1 at 33 days</strong> — direct mgr engagement needed immediately</li>
+              <li>Accenture P2 case 11 days in "Solution Provided" — follow up or close</li>
+              <li>Avg FRT spike (14.37h) from single outlier — shows median is the right metric</li>
+              <li>IST-only coverage for all European accounts — EMEA coverage gap confirmed</li>
+              <li>Accenture: 12 of 56 cases (21%) — SI enablement still not actioned</li>
             </ul>
           </div>
         </div>
         <div style="margin-top:16px;padding:12px 16px;background:var(--gray-10);border-radius:6px;font-size:11px;color:var(--gray-80)">
-          <strong>Suggested Actions:</strong>
-          (1) Run a DPE-specific knowledge clinic or office hours for IST/EMEA engineers — 12 cases show this is the top pain point.
-          (2) Engage Accenture LLP account team to understand if an SI-level enablement session would reduce repetitive case volume.
-          (3) Confirm TMP timeline for Case 474611443 (Motorola/EMEA P1) and set a bi-daily customer update schedule.
-          (4) Investigate FRT outliers for P1 cases in IST — standard should be sub-2-hour first response for Critical cases.
+          <strong>Q3 Close (Oct) Priorities:</strong>
+          (1) Resolve Motorola P1 (474611443) before Q3 close — this is the only P1 in backlog.
+          (2) Send Accenture enablement proposal to their account team — 12 cases this quarter, mass update alone logged 5 times.
+          (3) File resource planning note for EMEA coverage — all European Mfg Cloud cases currently IST-only.
+          (4) Visweswara to write KB on Tecan quote-to-SA fault error; Vipin Sharma to document Saint Gobain warranty case resolution.
         </div>
       </div>
     </div>
@@ -1622,7 +1603,7 @@
       <div class="kpi-tile">
         <div class="kpi-label">Cases with GUS Links</div>
         <div class="kpi-value">4</div>
-        <div class="kpi-delta">of 46 total (9%)</div>
+        <div class="kpi-delta">of 56 total (7%)</div>
       </div>
       <div class="kpi-tile">
         <div class="kpi-label">GUS Items Total</div>
@@ -1656,7 +1637,7 @@
             Case 474611443 · EMEA · Motorola Solutions · DPE Failure in Production &nbsp;
             <span style="background:rgba(255,255,255,.2);border-radius:4px;padding:2px 8px;font-size:10px">⚠ CASE STILL OPEN</span>
           </div>
-          <div style="font-size:10px;opacity:.8">Tahoor Khan · P1 Critical · 19.6 days</div>
+          <div style="font-size:10px;opacity:.8">Tahoor Khan · P1 Critical · 33 days ⚠ STILL OPEN</div>
         </div>
         <div style="padding:0">
           <table style="width:100%;border-collapse:collapse;font-size:12px">
@@ -1843,7 +1824,7 @@
           </tbody>
         </table>
         <div style="padding:12px 16px;font-size:11px;color:var(--gray-80);background:var(--gray-10);border-top:1px solid var(--gray-20);line-height:1.8">
-          <strong>Coverage gap:</strong> 42 of 46 cases (91%) had no GUS investigation raised. This is expected for configuration questions and how-to cases, but cases involving DPE failures, Sales Agreement permission issues, and forecast data errors may benefit from proactive investigation logging to build a shared knowledge base with Engineering.
+          <strong>Coverage gap:</strong> 52 of 56 cases (93%) had no GUS investigation raised. This is expected for configuration questions and how-to cases, but cases involving DPE failures, Sales Agreement bugs (Engelhard), and quote-to-SA fault errors (Tecan) may benefit from proactive investigation logging.
         </div>
       </div>
     </div>
@@ -1867,9 +1848,9 @@
 <div class="footer">
   Manufacturing Cloud Support | IST &amp; EMEA Weekly Executive Review &nbsp;·&nbsp;
   Data sourced from orgcs (Salesforce internal CRM) &nbsp;·&nbsp;
-  Period: Sep 27–Oct 2, 2026 (weekly) · Jul 1–Oct 6, 2026 (QTD) &nbsp;·&nbsp;
-  Generated by Manu Ramamurthy, Manager Technical Support Engineering &nbsp;·&nbsp;
-  All 46 cases verified against live case data
+  Period: Oct 12–18, 2026 (weekly) · Jul 1–Oct 18, 2026 (QTD) &nbsp;·&nbsp;
+  Generated by Manu Ramamurthy, Manager Technical Support Engineering · Oct 19, 2026 &nbsp;·&nbsp;
+  All 56 cases verified against live case data via owner-timezone methodology
 </div>
 
 </body>
